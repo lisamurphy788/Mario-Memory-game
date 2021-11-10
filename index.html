@@ -8,21 +8,30 @@
     <title>Mario Memory Game</title>
 </head>
 <body>
+    
     <h1 class="heading">
         <img src="assets/images/mario.jpg" class="logo" alt="Mario Game"> Mario Memory Game
     </h1>
-    <h2 class="score-area">
-        <p class="flips">Correct Answers <span id="score">0</span></p>
-        <p class="flips">Incorrect Answers <span id="incorrect">0</span></p>
-    </div>
+    <h2 class="rules">
+        <ul>
+        <li>Flip a card to begin</li>
+        <li> If a card matches second card a match is made and cards will stay face up. </li>
+        <li>If a card is not a match both cards flip back. </li>
+        <li>Try to beat your time and number of flips with every game.</li>
+    </ul> 
+    </h2>
+  
+    <section>
     <div class="game-area">
-        <div class="memory-card" data-image="bowser">
-         <img class="front-card" src="assets /images/bowser.jpg" alt="bowser">
-        <img class="back-card" src="assets /images/blank .png" alt="blank"></div>
+      <div class="memory-card" data-image="bowser">
+         <img class="front-card" src="assets/images/bowser.jpg" alt="bowser">
+        <img class="back-card" src="assets/images/blank .png" alt="blank">
+        </div>
 
         <div class="memory-card" data-image="bowser">
         <img class="front-card" src="assets/images/bowser.jpg" alt="bowser">
-        <img class="back-card" src="assets/images/blank .png" alt="blank"></div>
+        <img class="back-card" src="assets/images/blank .png" alt="blank">
+        </div>
 
         <div class="memory-card" data-image="mario">
             <img class="front-card" src="assets/images/mario.jpg" alt="mario">
@@ -64,6 +73,15 @@
             <img class="front-card" src="assets/images/yoschi.jpg" alt="yoschi">
             <img class="back-card" src="assets/images/blank .png" alt="blank">
         </div>
+    </div>
+    <div>
+        <h2 class="score-area">
+            <p class="flips"> Flips <span id="score">0</span></p>
+            <p class="flips"> Time <span id="incorrect">0</span></p>
+        </h2>
+        <button class="reset">Play Again</button>
+    </div>
+
     <script src="assets/js/script.js"></script>
 </body>
 </html>

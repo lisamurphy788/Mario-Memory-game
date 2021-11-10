@@ -1,12 +1,41 @@
-.game-area {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    }
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
     
-.memory-card {
-    grid-area: 1/1/1;
-
     }
+    body {
+        height: 100vh;
+        background: blue;
+        color: aliceblue;
+    }
+    .rules {
+        color: aliceblue;
+        
+    }
+   .game-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    width: 50%;
+    
+    
+    
+
+
+   }
+   .front-card, .back-card {
+       height: 150px;
+       width: 170px;
+
+
+   }
+   .front-card {
+       position: absolute;
+   }
+   .back-card {
+       position: relative;
+   }
+   @media screen {
+       
+   }
