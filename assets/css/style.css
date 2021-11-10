@@ -88,13 +88,14 @@
 }
 body {
     height: 100vh;
-    background: blue;
+    background-image: url(../images/sky.png);
     color: aliceblue;
 
 }
 .memory-game-container {
 display: flex;
 flex-direction: column;
+text-align: center;
 
 
 
