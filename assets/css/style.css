@@ -90,7 +90,8 @@
 body {
     height: 100vh;
     background-image: url(../images/sky.png);
-    color: red;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
 
 
 }
@@ -104,8 +105,7 @@ text-align: center;
     margin: 30px;
 }
 .rules {
-    color: red;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: normal;
     margin: 30px;
    
@@ -164,7 +164,6 @@ text-align: center;
   padding: 0 10px;
 }
 .game-summary {
-  color: #FFBB89;
   font-size: 25px;
 }
 
