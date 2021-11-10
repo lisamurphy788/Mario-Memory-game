@@ -8,79 +8,110 @@
     <title>Mario Memory Game</title>
 </head>
 <body>
-    
+    <Div class="memory-game-container">
     <h1 class="heading">
         <img src="assets/images/mario.jpg" class="logo" alt="Mario Game"> Mario Memory Game
     </h1>
+    
     <h2 class="rules">
         <ul>
-        <li>Flip a card to begin</li>
-        <li> If a card matches second card a match is made and cards will stay face up. </li>
+        <li> In order to being click on any card to Flip </li>
+        <li>You can only flip two cards at a time.</li>
+        <li> Your matched cards will stay flipped up. </li>
         <li>If a card is not a match both cards flip back. </li>
+        <li>Try to flip all six pairs</li>
         <li>Try to beat your time and number of flips with every game.</li>
+        
     </ul> 
     </h2>
-  
+</Div>
+
+   <!-- adapted from https://marina-ferreira.github.io/tutorials/js/memory-game -->
+
     <section>
-    <div class="game-area">
-      <div class="memory-card" data-image="bowser">
+    <div class="game-area-container">
+      <div class="card" data-image="bowser">
          <img class="front-card" src="assets/images/bowser.jpg" alt="bowser">
         <img class="back-card" src="assets/images/blank .png" alt="blank">
         </div>
 
-        <div class="memory-card" data-image="bowser">
+        <div class="card" data-image="bowser">
         <img class="front-card" src="assets/images/bowser.jpg" alt="bowser">
         <img class="back-card" src="assets/images/blank .png" alt="blank">
         </div>
 
-        <div class="memory-card" data-image="mario">
+        <div class="card" data-image="mario">
             <img class="front-card" src="assets/images/mario.jpg" alt="mario">
             <img class="back-card" src="assets/images/blank .png" alt="blank">
         </div>
-        <div class="memory-card" data-image="mario">
+        <div class="card" data-image="mario">
             <img class="front-card" src="assets/images/mario.jpg" alt="mario">
             <img class="back-card" src="assets/images/blank .png" alt="blank">
         </div>
-        <div class="memory-card" data-image="wario">
+        <div class="card" data-image="wario">
             <img class="front-card" src="assets/images/wario.jpg" alt="wario">
             <img class="back-card" src="assets/images/blank .png" alt="blank">
         </div>
-        <div class="memory-card" data-image="wario">
+        <div class="card" data-image="wario">
             <img class="front-card" src="assets/images/wario.jpg" alt="wario">
             <img class="back-card" src="assets/images/blank .png" alt="blank">
         </div>
-        <div class="memory-card" data-image="luigi">
+        <div class="card" data-image="luigi">
             <img class="front-card" src="assets/images/luigi.jpg" alt="luigi">
             <img class="back-card" src="assets/images/blank .png" alt="blank">
         </div>
-        <div class="memory-card" data-image="luigi">
+        <div class="card" data-image="luigi">
             <img class="front-card" src="assets/images/luigi.jpg" alt="luigi">
             <img class="back-card" src="assets/images/blank .png" alt="blank">
         </div>
-        <div class="memory-card" data-image="team">
+        <div class="card" data-image="team">
             <img class="front-card" src="assets/images/team.jpg" alt="team">
             <img class="back-card" src="assets/images/blank .png" alt="blank">
         </div>
-        <div class="memory-card" data-image="team">
+        <div class="card" data-image="team">
             <img class="front-card" src="assets/images/team.jpg" alt="team">
             <img class="back-card" src="assets/images/blank .png" alt="blank">
         </div>
-        <div class="memory-card" data-image="yoschi">
+        <div class="card" data-image="yoschi">
             <img class="front-card" src="assets/images/yoschi.jpg" alt="yoschi">
             <img class="back-card" src="assets/images/blank .png" alt="blank">
         </div>
-        <div class="memory-card" data-image="yoschi">
+        <div class="card" data-image="yoschi">
             <img class="front-card" src="assets/images/yoschi.jpg" alt="yoschi">
             <img class="back-card" src="assets/images/blank .png" alt="blank">
         </div>
     </div>
+    
     <div>
-        <h2 class="score-area">
-            <p class="flips"> Flips <span id="score">0</span></p>
-            <p class="flips"> Time <span id="incorrect">0</span></p>
-        </h2>
+        <div class="game-summary-box">
+            <div onclick="flipcard()" class="game-summary">
+              <span class="time">Time 0:00</span>
+            </div>
+            <div class="game-summary"> Flips
+              <span class="flips">0</span>
+            </div>
+          </div> 
+
+
         <button class="reset">Play Again</button>
     </div>
+
+
+     <!-- Win Message Modal -->
+  <section class="win-msg">
+    <div class="modal" id="modal">
+      <!-- modal content -->
+      <div class="modal-content">
+        <span id="close" class="close">&times;</span>
+        <h2>Well Done!</h2>
+        <br>
+        <p>You have won!</p>
+        <p>You made <span id="finalFlips"> </span> moves </p>
+        <p>in the <span id="totalTime"> </span> </p>
+        <img class="#" src="#" alt="trophy">
+      </div>
+    </div>
+  </section>
 
     <script src="assets/js/script.js"></script>
 </body>

@@ -1,41 +1,160 @@
-    * {
+    /* {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     }
     body {
+        margin: 0;
         height: 100vh;
         background: blue;
-        color: aliceblue;
+        display: flex;
+        
+    }
+    .heading {
+        display: flex;
     }
     .rules {
         color: aliceblue;
+        font-size: 1rem;
+        font-weight: normal;
+        display: flex;
+        
         
     }
    .game-area {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    width: 50%;
-    
-    
-    
-
-
+    display: flex;
+   /* grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, 1fr); 
+    /* grid-template-rows: auto; */
+    /* width: 50%; */
+    /*gap: 5px;
+    margin: 5px 0 10px;
+    justify-content: center;
+    width: 40rem;
+    height: 40rem;
+    flex-wrap: wrap;
+    perspective: 1000px;
    }
+    
+    .card {
+        position: relative;
+        width: calc(33.333% - 10px);
+        height: calc(25% - 10px);
+        transform: scale(1);
+        transform-style: preserve-3d;
+        transition: transform .5s;
+        
+    
+        
+      }
+
    .front-card, .back-card {
-       height: 150px;
-       width: 170px;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      padding: 15px;
+      background: white
+      border-radius: 12px;
+      border-width: .2px;
+      overflow: hidden;
+      transition: transform 500ms ease-in-out;
+      backface-visibility: hidden;
+    }
 
-
-   }
-   .front-card {
-       position: absolute;
-   }
-   .back-card {
-       position: relative;
-   }
-   @media screen {
+    .front-card {
+        transform: rotateY(180deg);
+      }
+   
+   .game-summary-box {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+  }
+   .game-summary {
        
-   }
+   }*/
+       
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+    height: 100vh;
+    background: blue;
+    color: aliceblue;
+
+}
+.memory-game-container {
+display: flex;
+flex-direction: column;
+
+
+
+
+}
+.heading {
+    margin: 30px;
+}
+.rules {
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 30px;
+   
+
+    
+}
+
+.game-area-container {
+
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+   
+    
+}
+.card {
+    width: calc(33.333% - 10px);
+    height: calc(25% - 10px);
+    margin: 5px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform.5s;
+}
+.card:active {
+    transform: scale(.97);
+    transition: transform.2s;
+}
+.card.flip {
+    transform: rotateY(180deg);
+}
+.front-card,
+.back-card {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    border-radius: 5px;
+    background: blue;
+    backface-visibility: hidden;
+
+}
+.front-card {
+    transform: rotateY(180deg);
+    
+}
+
+
+
