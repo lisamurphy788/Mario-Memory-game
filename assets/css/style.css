@@ -133,8 +133,8 @@ text-align: center;
     transform-style: preserve-3d;
     transition: transform.5s;
     cursor: pointer;
-    height: 100px;
-    width: 120px;
+    height: 150px;
+    width: 170px;
 }
 .card:active {
     transform: scale(.97);
