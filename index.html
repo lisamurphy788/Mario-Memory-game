@@ -8,20 +8,21 @@
     <title>Mario Memory Game</title>
 </head>
 <body>
-    <Div class="memory-game-container">
-    <!--<h1 class="heading">-->
+    <div class="logo"
+    class="heading">
         <img src="assets/images/logo.png" class="logo" alt="Mario Game Logo"> 
-    
-    </Div>
- <div> <button id="myBtn" onclick="reset()">PLAY GAME </button>  
+    </div>
+  <Div class="memory-game-container">
+ <div> <button id="myBtn" onclick="reset()">PLAY </button>  <button id="myBtn" id="modalBtn">RULES</button>
 </div>
 </div>
-<button id="myBtn">RULES</button>
+
 <!-- The Modal -->
-<div id="myModal" class="modal">
+<div id="rules-modal" class="modal" class="rules-content">
 
     <!-- Modal content -->
-    <div class="modal-content">
+    <div id="rules-modal"
+    class="rules-content">
       <span class="close">&times;</span>
       <h2 class="rules">
         <ul>
@@ -34,7 +35,7 @@
         <li>Try to beat your time and number of flips with every game.</li>
         
         </ul> 
-    </2>
+    </h2>
     </div>
   
   </div>
@@ -104,12 +105,12 @@
             <div class="game-summary"> Flips
               <span class="flips">0</span>
             </div>
-          </div> 
+         
 
 
         <button id="myBtn">Play Again</button>
     </div>
-
+  </div> 
 
      <!-- Win Message Modal -->
   <!--<section class="win-msg">

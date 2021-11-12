@@ -4,11 +4,9 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-
+    box-sizing: border-box;     
 
 }
-
 
 body {
     height: 100vh;
@@ -31,8 +29,9 @@ justify-content: center;
 
 }
 .logo {
-height: 300px;
-width: 350px;
+height: 250px;
+width: 250px;
+margin: auto;
 }
 .heading {
     margin: 30px;
@@ -100,13 +99,11 @@ width: 350px;
     text-align: center;
 }
 #myBtn {
-
-display: inline-block;
   text-decoration: none;
   color: red;
   border: 1px solid yellowgreen;
   padding: 12px 34px;
-  font-size: 14px;
+  font-size: 16px;
   background: yellow;
   position: relative;
   cursor: pointer;
@@ -166,7 +163,7 @@ display: inline-block;
 /* media for larger screens */
 
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
 body {
     height: 100vh;
     background-image: url(../images/sky.png);
@@ -178,8 +175,8 @@ body {
 }
 
 .logo {
-    height: 400px;
-    width: 400px;
+    height: 600px;
+    width: 600px;
     }
 
 
@@ -193,7 +190,14 @@ body {
     transform-style: preserve-3d;
     transition: transform.5s;
     cursor: pointer;
-    height: 200px;
-    width: 240px;
+    height: 150px;
+    width: 170px;
 }
+.game-summary-box {
+    text-align: center;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
 }

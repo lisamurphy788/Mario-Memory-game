@@ -1,6 +1,6 @@
 
 const cards = document.querySelectorAll('.card');
-const modal = document.getElementById("myModal"); // Get the button that opens the modal
+const rules = document.getElementById("modal"); // Get the button that opens the modal
 const btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];// Get the <span> element that closes the modal
 
