@@ -90,6 +90,9 @@ margin: auto;
 .game-summary-box {
   text-align: center;
   padding: 0 10px;
+  color: blue;
+  font-weight: bolder;
+  font-size: x-large;
 }
 .game-summary {
  
@@ -100,7 +103,8 @@ margin: auto;
 }
 #myBtn {
   text-decoration: none;
-  color: red;
+  color: blue;
+  font-weight: bold;
   border: 1px solid yellowgreen;
   padding: 12px 34px;
   font-size: 16px;

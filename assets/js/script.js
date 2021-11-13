@@ -1,12 +1,38 @@
 
 const cards = document.querySelectorAll('.card');
+const timeContainer = document.querySelector('.timer')
 const rules = document.getElementById("modal"); // Get the button that opens the modal
 const btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];// Get the <span> element that closes the modal
 
+
 let hasFlippedCard = false;//if card was clicked already
 let lockBoard = false;//lock board
 let firstCard, secondCard; //cards match
+
+
+ //timer
+ let time;
+ let minutes = 0;
+ let seconds = 0;
+ let timeStart = false;
+ timeContainer.innerHTML =  minutes + " : " + seconds;
+ 
+ function timer() {
+     time = setInterval(function() {
+         seconds++;
+         if (seconds === 59) {
+             minutes++;
+             seconds = 0;
+         }
+         timeContainer.innerHTML = //"Time " +
+          minutes + " : " + seconds;
+     }, 1000);
+ }
+ 
+ function stopTime() {
+     clearInterval(time);
+ }
 
 
 // When the user clicks on the button, open the modal
@@ -25,9 +51,12 @@ btn.onclick = function() {
       modal.style.display = "none";
     }
   }
+
+
 function flipCard() {
     if (lockBoard) return;
     if (this === firstCard) return;
+    timer();
 
 
     this.classList.add('flip');
@@ -45,8 +74,9 @@ function flipCard() {
 function checkForMatch () {
     //stay facing upwards 
     let ismatch = firstCard.dataset.image === secondCard.dataset.image;
-
+    
     ismatch ? disableCards() : unflipCards();
+    
      
 }
 
