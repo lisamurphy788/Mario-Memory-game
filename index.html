@@ -19,13 +19,10 @@
 </div>
 
 
-<!-- Trigger/Open The Modal 
-<button id="myBtn">Rules</button>-->
-
-<!-- The Modal -->
+<!-- Rules Modal adapted from https://www.w3schools.com/howto/howto_css_modals.asp -->
 <div id="rulesModal" class="modal">
 
-  <!-- Modal content -->
+  <!-- Modal content Rules of the game -->
   <div class="modal-content">
     <span class="close">&times;</span>
     <h2 class="rules">
@@ -43,29 +40,10 @@
   </div>
 
 </div>
-<!-- The Modal 
-<div id="rules" class="rules">
 
-    <!-- Modal content 
-        <span class="close">&times;</span>
-      <h2 class="rules">
-        <ul>
-        
-        <li> In order to begin click on any card to Flip </li>
-        <li>You can only flip two cards at a time.</li>
-        <li> Your matched cards will stay flipped up. </li>
-        <li>If a card is not a match both cards flip back. </li>
-        <li>Try to flip all six pairs</li>
-        <li>Try to beat your time and number of flips with every game.</li>
-        
-        </ul> 
-    </h2>
-    </div>
-  
-  </div>
+<!-- Mario cards set up in Divs -->
 
-
-   adapted from https://marina-ferreira.github.io/tutorials/js/memory-game -->
+  <!-- adapted from https://marina-ferreira.github.io/tutorials/js/memory-game -->
 
     <section>
     <div class="game-area-container">
@@ -120,7 +98,8 @@
             <img class="back-card" src="assets/images/blank .png" alt="blank">
         </div>
     </div>
-    
+
+    <!--Game information time and flips -->
     <div>
         <div class="game-summary-box">
             <div onclick="flipcard()" class="game-summary">
