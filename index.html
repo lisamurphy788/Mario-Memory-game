@@ -13,17 +13,41 @@
         <img src="assets/images/logo.png" class="logo" alt="Mario Game Logo"> 
     </div>
   <Div class="memory-game-container">
- <div> <button id="myBtn" onclick="reset()">PLAY </button>  <button id="myBtn" id="modalBtn">RULES</button>
+ <div> 
+   <button id = "myBtn"> RULES</button> <button id="myBtn" onclick="reset()">PLAY </button> 
 </div>
 </div>
+
+
+<!-- Trigger/Open The Modal 
+<button id="myBtn">Rules</button>-->
 
 <!-- The Modal -->
-<div id="rules-modal" class="modal" class="rules-content">
+<div id="rulesModal" class="modal">
 
-    <!-- Modal content -->
-    <div id="rules-modal"
-    class="rules-content">
-      <span class="close">&times;</span>
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 class="rules">
+      <ul>
+      
+      <li> In order to begin click on any card to Flip </li>
+      <li>You can only flip two cards at a time.</li>
+      <li> Your matched cards will stay flipped up. </li>
+      <li>If a card is not a match both cards flip back. </li>
+      <li>Try to flip all six pairs</li>
+      <li>Try to beat your time and number of flips with every game.</li>
+      
+      </ul> 
+  </h2>
+  </div>
+
+</div>
+<!-- The Modal 
+<div id="rules" class="rules">
+
+    <!-- Modal content 
+        <span class="close">&times;</span>
       <h2 class="rules">
         <ul>
         
@@ -41,7 +65,7 @@
   </div>
 
 
-   <!-- adapted from https://marina-ferreira.github.io/tutorials/js/memory-game -->
+   adapted from https://marina-ferreira.github.io/tutorials/js/memory-game -->
 
     <section>
     <div class="game-area-container">
