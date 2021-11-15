@@ -4,11 +4,14 @@ var modal = document.getElementById("rulesModal");// Get the modal
 var btn = document.getElementById("myBtn");// Get the button that opens the modal
 var span = document.getElementsByClassName("close")[0]; // Get the <span> element that closes the modal
 var flipContainer = document.querySelector(".flips");
+const MAX_MATCH = 6;
+
 
 let hasFlippedCard = false;//if card was clicked already
 let lockBoard = false;//lock board
 let firstCard, secondCard; //cards match
 let flips = 0;
+
 
 //modal adapted from https://www.w3schools.com/howto/howto_css_modals.asp
 
@@ -63,8 +66,14 @@ function checkForMatch () {
     let ismatch = firstCard.dataset.image === secondCard.dataset.image;
     
     ismatch ? disableCards() : unflipCards();
-    
+     if (ismatch === MAX_MATCH) gameOver();
      
+}
+function gameOver() {
+    showOverMessage()
+}
+function showOverMessage (){
+modal.style.display= "block";
 }
 
 function disableCards () {
