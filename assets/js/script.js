@@ -5,6 +5,9 @@ var btn = document.getElementById("myBtn");// Get the button that opens the moda
 var span = document.getElementsByClassName("close")[0]; // Get the <span> element that closes the modal
 var flipContainer = document.querySelector(".flips");
 const MAX_MATCH = 6;
+//const timer = document.getElementsByClassName("timer")
+//const gameOver = document.getElementById("game-over-modal")
+
 
 
 let hasFlippedCard = false;//if card was clicked already
@@ -45,7 +48,7 @@ function flipCard() {
     if (lockBoard) return;
     if (this === firstCard) return;
     addFlip();
-   // timer();
+    
 
 
     this.classList.add('flip');
@@ -69,12 +72,10 @@ function checkForMatch () {
      if (ismatch === MAX_MATCH) gameOver();
      
 }
-function gameOver() {
-    showOverMessage()
+/*function gameOver() {
+    modal.style.display = "block"
 }
-function showOverMessage (){
-modal.style.display= "block";
-}
+*/
 
 function disableCards () {
     firstCard.removeEventListener('click', flipCard)
@@ -96,6 +97,18 @@ function resetBoard () {
     [hasFlippedCard, lockBoard] = [false, false];
     [firstCard, secondCard] = [null, null];
 }
+
+//Timer
+/*function timer() {
+    var count = 120, timer = setInterval(function() {
+      document.getElementById("count-down").innerHTML=count--;
+      if(count === -2) {
+      document.getElementById("count-down").innerHTML=0;
+        clearInterval(timer);
+        alert("Times Up!!!");
+      } 
+    }, 1000);
+  }*/
 
 (function shuffle() {
     cards.forEach(card => {
