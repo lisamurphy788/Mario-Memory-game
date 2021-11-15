@@ -3,11 +3,12 @@ const cards = document.querySelectorAll('.card');
 var modal = document.getElementById("rulesModal");// Get the modal
 var btn = document.getElementById("myBtn");// Get the button that opens the modal
 var span = document.getElementsByClassName("close")[0]; // Get the <span> element that closes the modal
-
+var flipContainer = document.querySelector(".flips");
 
 let hasFlippedCard = false;//if card was clicked already
 let lockBoard = false;//lock board
 let firstCard, secondCard; //cards match
+let flips = 0;
 
 //modal adapted from https://www.w3schools.com/howto/howto_css_modals.asp
 
@@ -27,10 +28,20 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+//Flips 
+
+flips = 0;
+flipContainer.innerHtml = 0;
+
+function addFlip() {
+    flips++;
+    flipContainer.innerHTML = flips;
+}
 
 function flipCard() {
     if (lockBoard) return;
     if (this === firstCard) return;
+    addFlip();
    // timer();
 
 
