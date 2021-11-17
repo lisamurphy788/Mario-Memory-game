@@ -69,7 +69,9 @@ To clone this project from GitHub:
  ## Credits 
  ### Content 
 ### Media
-All of the pictures that i have on this site are taken from [Pixels](https://www.pexels.com/).
+All of the pictures used for the characters of the game where taken from [Clipart-Library](http://clipart-library.com/clipart/1346332.htm).
+
+The background image of the game was taken from 
 
 All of the icons for this website have been taken from [Fontawesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2)
 
