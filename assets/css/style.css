@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Mochiy+Pop+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Kanit:wght@300&family=Mochiy+Pop+One&display=swap');
    
 *{
     padding: 0;
@@ -16,7 +16,7 @@ body {
     background-attachment: fixed;
     color: rgb(255, 0, 0);
     font-weight: 900;
-    font-family: 'Mochiy pop', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-family: ;
     font-size: 1em;
 
@@ -169,8 +169,10 @@ margin: auto;
   footer {
     color: #ffff;
     background-color: yellow;
-    margin: auto;
+    margin: 20px auto;
     display: grid;
+    padding-top: 20px;
+    
     
   }
   
@@ -200,7 +202,7 @@ body {
     background-size: cover;
     color: rgb(255, 0, 0);
     font-weight: 900;
-    font-family: 'Mochiy pop', cursive;
+    font-family: 'Irish Grover', sans-serif;
     font-size: 2rem;
 }
 
