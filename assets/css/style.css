@@ -16,7 +16,8 @@ body {
     background-attachment: fixed;
     color: rgb(255, 0, 0);
     font-weight: 900;
-    font-family: 'Mochiy pop', cursive;
+    font-family: 'Mochiy pop', sans-serif;
+    font-family: ;
     font-size: 1em;
 
 
@@ -163,6 +164,31 @@ margin: auto;
     color: #000;
     text-decoration: none;
     cursor: pointer;
+  }
+
+  footer {
+    color: #ffff;
+    background-color: yellow;
+    margin: auto;
+    display: grid;
+    
+  }
+  
+  footer ul {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    color: #ffff;
+  }
+  
+  footer ul li {
+    color: #ffff;
+    display: inline-block;
+    font-size: 25px;
+    text-decoration: none;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    padding-right: 50px;
   }
 /* media for larger screens */
 

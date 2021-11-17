@@ -39,6 +39,7 @@ window.onclick = function(event) {
 flips = 0;
 flipContainer.innerHtml = 0;
 
+
 function addFlip() {
     flips++;
     flipContainer.innerHTML = flips;
