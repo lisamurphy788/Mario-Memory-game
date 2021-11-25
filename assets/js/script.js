@@ -1,11 +1,12 @@
 
+
 const cards = document.querySelectorAll('.card');
 var modal = document.getElementById("rulesModal");// Get the modal
 var btn = document.getElementById("myBtn");// Get the button that opens the modal
 var span = document.getElementsByClassName("close")[0]; // Get the <span> element that closes the modal
 var flipContainer = document.querySelector(".flips");
 const MAX_MATCH = 6;
-//const timer = document.getElementsByClassName("timer")
+const timeContainer = document.querySelector(".timer")
 //const gameOver = document.getElementById("game-over-modal")
 
 
@@ -98,7 +99,27 @@ function resetBoard () {
     [hasFlippedCard, lockBoard] = [false, false];
     [firstCard, secondCard] = [null, null];
 }
-
+let time;
+ let minutes = 0;
+ let seconds = 0;
+ let timeStart = false;
+ timeContainer.innerHTML = "Time " + minutes + " : " + seconds;
+ 
+ function timer() {
+     time = setInterval(function() {
+         seconds++;
+         if (seconds === 59) {
+             minutes++;
+             seconds = 0;
+         }
+         timeContainer.innerHTML = "Time " + minutes + " : " + seconds;
+     }, 1000);
+ }
+ 
+ function stopTime() {
+     clearInterval(time);
+ }
+ 
 //Timer
 /*function timer() {
     var count = 120, timer = setInterval(function() {
