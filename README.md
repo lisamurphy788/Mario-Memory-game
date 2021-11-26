@@ -1,4 +1,22 @@
-## UX
+# MARIO MEMORY GAME
+
+## DEMO
+[THE LIVE WEBSITE CAN BE FOUND HERE](https://lisamurphy788.github.io/Mario-Memory-game/)
+# am i reponsive image here
+
+# Table of Contents 
+
+# User Experience
+
+## User Stories 
+* As a user of the game i should be able to see the rules of the game.
+* As a user of the game i should be able to click on a card to begin the game.
+* As a user of the game i should only be allowed to click on two cards at a time. 
+* Any card matches should stay facing upwards.
+* Any cards not marched should turn backwards. 
+* As a user of the game i should know the numer of flips i have had. 
+* By using the game i should be able to test my memory. 
+
 ### Project Goals 
 
 ### User Stories 
