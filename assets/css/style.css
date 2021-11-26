@@ -150,6 +150,17 @@ margin: auto;
     width: 80%;
     
   }
+  /* GameOver Modal */
+
+/*  Game over Modal Content */
+.modal-win {
+  background-color: blue;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid rgb(255, 3, 3);
+  width: 80%;
+  
+}
   
   /* The Close Button */
   .close {

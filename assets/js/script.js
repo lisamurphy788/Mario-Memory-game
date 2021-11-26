@@ -1,12 +1,10 @@
-
-
 const cards = document.querySelectorAll('.card');
 var modal = document.getElementById("rulesModal");// Get the modal
 var btn = document.getElementById("myBtn");// Get the button that opens the modal
 var span = document.getElementsByClassName("close")[0]; // Get the <span> element that closes the modal
 var flipContainer = document.querySelector(".flips");
-const MAX_MATCH = 6;
-const timeContainer = document.querySelector(".timer")
+let ismatch = 0;
+//const timer = document.getElementsByClassName("timer")
 //const gameOver = document.getElementById("game-over-modal")
 
 
@@ -70,9 +68,11 @@ function checkForMatch () {
     //stay facing upwards 
     let ismatch = firstCard.dataset.image === secondCard.dataset.image;
     
-    ismatch ? disableCards() : unflipCards();
-     if (ismatch === MAX_MATCH) gameOver();
+    ismatch ? disableCards() : unflipCards(); // not a match turnback over 
+    if (ismatch === 6) {
+      alert('You win');
      
+     }
 }
 /*function gameOver() {
     modal.style.display = "block"
@@ -99,27 +99,7 @@ function resetBoard () {
     [hasFlippedCard, lockBoard] = [false, false];
     [firstCard, secondCard] = [null, null];
 }
-let time;
- let minutes = 0;
- let seconds = 0;
- let timeStart = false;
- timeContainer.innerHTML = "Time " + minutes + " : " + seconds;
- 
- function timer() {
-     time = setInterval(function() {
-         seconds++;
-         if (seconds === 59) {
-             minutes++;
-             seconds = 0;
-         }
-         timeContainer.innerHTML = "Time " + minutes + " : " + seconds;
-     }, 1000);
- }
- 
- function stopTime() {
-     clearInterval(time);
- }
- 
+
 //Timer
 /*function timer() {
     var count = 120, timer = setInterval(function() {

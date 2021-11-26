@@ -33,7 +33,7 @@
       <li> Your matched cards will stay flipped up. </li>
       <li>If a card is not a match both cards flip back. </li>
       <li>Try to flip all six pairs</li>
-      <li>Try to beat your time and number of flips with every game.</li>
+      <li>Try to beat your  number of flips with every game.</li>
       
       </ul> 
   </h2>
@@ -103,7 +103,7 @@
     <div>
         <div class="game-summary-box">
             <div onclick="flipcard()" class="game-summary">
-              <span class="timer">Timer: 0:00</span>
+              <!--<span class="timer">Timer: 0:00</span>-->
             </div>
             <div class="game-summary"> Flips:
               <span class="flips">0</span>
@@ -115,16 +115,18 @@
     </div>
   </div> 
 
-     <!-- Game Over Message Modal -->
-  <section class="game-over">
-    <div class="modal" id="game-over-modal">
-      modal content 
-      <div class="modal-content">
+  <section class="win-msg">
+    <div class="modal" id="gameOver">
+      <!-- modal content -->
+      <div class="modal-win">
         <span id="close" class="close">&times;</span>
         <h2>Well Done!</h2>
         <br>
-        <p>You found all pairs!</p>
+        <p>You have won!</p>
         
+       <!--<p>You made <span id="finalMove"> </span> moves </p>
+        <p>in the <span id="totalTime"> </span> </p>
+        <img class="modal-img" src="./assets/images/thumbs-up.png" alt="Thumbs up smiley face">-->
       </div>
     </div>
   </section>
