@@ -1,11 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Kanit:wght@300&family=Mochiy+Pop+One&display=swap');
-   
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&family=Kanit:wght@300&family=Mochiy+Pop+One&display=swap");
+
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;     
-
+    box-sizing: border-box;
 }
 
 body {
@@ -16,47 +15,42 @@ body {
     background-attachment: fixed;
     color: rgb(255, 0, 0);
     font-weight: 900;
-    font-family: 'Kanit', sans-serif;
+    font-family: "Kanit", sans-serif;
     font-size: 1em;
-
-
 }
+
 .memory-game-container {
-display: grid;
-flex-direction: column;
-text-align: center;
-justify-content: center;
+    display: grid;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
 
-}
 .logo {
-height: 250px;
-width: 250px;
-margin: auto;
+    height: 250px;
+    width: 250px;
+    margin: auto;
 }
+
 .heading {
     margin: 30px;
 }
+
 .rules {
     margin: 30px;
     font-weight: bolder;
-   
 }
 
 .game-area-container {
-        /* width: 640px; */
-        /* height: 640px; */
     margin: 10px 0;
     display: grid;
     flex-wrap: wrap;
     perspective: 1000px;
     grid-template-columns: auto auto auto;
     justify-content: center;
-
 }
+
 .card {
-    /* width: calc(33.333% - 10px); */
-    /* height: calc(25% - 10px); */
-    /* margin: 5px; */
     position: relative;
     transform: scale(1);
     transform-style: preserve-3d;
@@ -66,13 +60,17 @@ margin: auto;
     width: 100px;
 }
 .card:active {
-    transform: scale(.97);
+    transform: scale(0.97);
     transition: transform.2s;
 }
+
 .card.flip {
     transform: rotateY(180deg);
 }
-.front-card, .back-card {
+
+/* Character and blank cards*/
+.front-card,
+.back-card {
     width: 100%;
     height: 100%;
     padding: 20px;
@@ -80,148 +78,149 @@ margin: auto;
     border-radius: 15px;
     background: blue;
     backface-visibility: hidden;
-
 }
+
+/*Allowing for flip */
 .front-card {
     transform: rotateY(180deg);
-    
 }
 
+/* Flips box */
 .game-summary-box {
-  text-align: center;
-  padding: 0 10px;
-  color: blue;
-  font-weight: bolder;
-  font-size: x-large;
+    text-align: center;
+    padding: 0 10px;
+    color: blue;
+    font-weight: bolder;
+    font-size: x-large;
 }
 
-
+/*Play again */
 .reset {
     text-align: center;
 }
+
+/* RUles button */
 #myBtn {
-  text-decoration: none;
-  color: blue;
-  font-weight: bold;
-  border: 1px solid yellowgreen;
-  padding: 12px 34px;
-  font-size: 16px;
-  background: yellow;
-  position: relative;
-  cursor: pointer;
-  border-radius: 10px;
-  transition: 1s;
-  height: 50px;
-  width: 100px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    border: 1px solid yellowgreen;
+    padding: 12px 34px;
+    font-size: 16px;
+    background: yellow;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 1s;
+    height: 50px;
+    width: 100px;
 }
 
 #myBtn:hover {
-  border: 1px solid yellow;
-  background: red;
-  color: white;
-  text-decoration: none;
-  transition: 1s;
+    border: 1px solid yellow;
+    background: red;
+    color: white;
+    text-decoration: none;
+    transition: 1s;
 }
 
 /* Play again Button*/
 .btn {
-  text-decoration: none;
-  color: blue;
-  font-weight: bold;
-  border: 1px solid yellowgreen;
-  padding: 12px 34px;
-  font-size: 15px;
-  background: yellow;
-  position: relative;
-  cursor: pointer;
-  border-radius: 10px;
-  transition: 1s;
-  height: 50px;
-  width: 100px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    border: 1px solid yellowgreen;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: yellow;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 1s;
+    height: 50px;
+    width: 150px;
 }
+
 .btn:hover {
-  border: 1px solid yellow;
-  background: red;
-  color: white;
-  text-decoration: none;
-  transition: 1s;
+    border: 1px solid yellow;
+    background: red;
+    color: white;
+    text-decoration: none;
+    transition: 1s;
 }
 
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
+    position: fixed; 
     z-index: 1; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
+    width: 100%; 
+    height: 100%; 
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content */
-  .modal-content {
+    background-color: rgb(0, 0, 0); 
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+/* Modal Content */
+.modal-content {
     background-color: blue;
     margin: auto;
     padding: 20px;
     border: 1px solid rgb(255, 3, 3);
     width: 80%;
-    
-  }
-  /* GameOver Modal */
+}
+/* GameOver Modal */
 
 /*  Game over Modal Content */
 .modal-win {
-  background-color: blue;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid rgb(255, 3, 3);
-  width: 80%;
-  
-}
-.modal-img {
-  display: inline-block;
-  margin: 1em 0 1em;
-  width: 15em;
+    background-color: blue;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgb(255, 3, 3);
+    width: 80%;
 }
 
-  /* The Close Button */
-  .close {
+.modal-img {
+    display: inline-block;
+    margin: 1em 0 1em;
+    width: 15em;
+}
+
+/* The Close Button */
+.close {
     color: #fc0e0e;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-  }
+}
 
-  footer {
+footer {
     color: #ffff;
     background-color: yellow;
     margin: 20px auto;
     display: grid;
     padding-top: 20px;
     height: 60px;
-    
-    
-  }
-  
-  footer ul {
+}
+
+footer ul {
     margin: auto;
     padding: 0;
     list-style: none;
     color: #ffff;
-  }
-  
-  footer ul li {
+}
+
+footer ul li {
     color: #ffff;
     display: inline-block;
     font-size: 25px;
@@ -229,52 +228,65 @@ margin: auto;
     justify-content: space-evenly;
     margin-left: 20px;
     padding-right: 50px;
-  }
-
+}
 
 /* media for larger screens */
 
-
 @media (min-width: 768px) {
-body {
-    height: 100vh;
-    background-image: url(../images/sky.png);
-    background-size: cover;
-    color: rgb(255, 0, 0);
-    font-weight: 900;
-    font-family: 'Kanit', sans-serif;
-    font-size: 2rem;
-}
-
-.logo {
-    height: 450px;
-    width: 450px;
+    body {
+        height: 100vh;
+        background-image: url(../images/sky.png);
+        background-size: cover;
+        color: rgb(255, 0, 0);
+        font-weight: 900;
+        font-family: "Kanit", sans-serif;
+        font-size: 2rem;
     }
 
+    .logo {
+        height: 450px;
+        width: 450px;
+    }
 
+    .card {
+        position: relative;
+        transform: scale(1);
+        transform-style: preserve-3d;
+        transition: transform.5s;
+        cursor: pointer;
+        height: 150px;
+        width: 170px;
+    }
+    .game-summary-box {
+        text-align: center;
+        padding: 0 10px;
+        display: flex;
+        justify-content: center;
+        /* justify-content: space-evenly; */
+        justify-content: space-evenly;
+    }
 
-.card {
-    /* width: calc(33.333% - 10px); */
-    /* height: calc(25% - 10px); */
-    /* margin: 5px; */
-    position: relative;
-    transform: scale(1);
-    transform-style: preserve-3d;
-    transition: transform.5s;
-    cursor: pointer;
-    height: 150px;
-    width: 170px;
+    footer {
+        height: 80px;
+    }
 }
-.game-summary-box {
-    text-align: center;
-    padding: 0 10px;
-    display: flex;
-    justify-content: center;
-    /* justify-content: space-evenly; */
-    justify-content: space-evenly;
-}
+@media (min-width: 1024px) {
+  body {
+    height: 100vh;
+  }    
+  #myBtn {
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+  }
+  .btn {
+    height: 100px;
+    width: 250px;
+    font-size: 30px;
 
-footer {
-  height: 80px;
-}
+  }
+  footer {
+    height: 15%;
+  }
+     
 }
