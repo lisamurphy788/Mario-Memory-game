@@ -184,7 +184,12 @@ margin: auto;
   width: 80%;
   
 }
-  
+.modal-img {
+  display: inline-block;
+  margin: 1em 0 1em;
+  width: 15em;
+}
+
   /* The Close Button */
   .close {
     color: #fc0e0e;

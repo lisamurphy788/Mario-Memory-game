@@ -13,7 +13,7 @@
     </div>
   <Div class="memory-game-container">
  <div> 
-   <button id = "myBtn"> RULES</button> <!--<button id="myBtn" onclick="reset()">PLAY </button> -->
+   <button id = "myBtn"> RULES</button> <button class="btn" onclick="reset()">Play Again</button>
 </div>
 </div>
 
@@ -102,17 +102,13 @@
     <div>
         <div class="game-summary-box">
             <div onclick="flipcard()" class="game-summary">
-              <!--<span class="timer">Timer: 0:00</span>-->
             </div>
             <div class="game-summary"> Flips:
               <span class="flips">0</span>
 
-              <button class="btn" onclick="reset()">Play Again</button>
+              
             </div>
          
-
-
-       <!-- <button id="myBtn">Play Again</button>-->
     </div>
   </div> 
 
@@ -125,9 +121,9 @@
         <br>
         <p>You have won!</p>
         
-       <!--<p>You made <span id="finalMove"> </span> moves </p>
-        <p>in the <span id="totalTime"> </span> </p>
-        <img class="modal-img" src="./assets/images/thumbs-up.png" alt="Thumbs up smiley face">-->
+       <p>You made <span id="finalFlip"> </span> Flips </p>
+        
+        <img class="modal-img" src="assets/images/star.png" alt="Star Image">
       </div>
     </div>
   </section>

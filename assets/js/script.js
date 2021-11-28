@@ -86,6 +86,8 @@ function checkForMatch() {
 // Show Win message 
 function win() {
   gameOver.style.display = "block";
+  // show flips on win message
+  document.getElementById("finalFlip").innerHTML = flips;
 }
 
 // Close out of win Modal 
@@ -108,10 +110,14 @@ function unflipCards() {
   }, 1000);
 }
 
+// Reset board 
+
 function resetBoard() {
   [hasFlippedCard, lockBoard] = [false, false];
   [firstCard, secondCard] = [null, null];
 }
+
+// Play Again Reset 
 
 function reset ()
 {
@@ -128,18 +134,7 @@ function reset ()
 }, 500);
 }
   
-
-//Timer
-/*function timer() {
-    var count = 120, timer = setInterval(function() {
-      document.getElementById("count-down").innerHTML=count--;
-      if(count === -2) {
-      document.getElementById("count-down").innerHTML=0;
-        clearInterval(timer);
-        alert("Times Up!!!");
-      } 
-    }, 1000);
-  }*/
+// Shuffle 
 
   function shuffle() {
     cards.forEach(cards => {
@@ -148,5 +143,7 @@ function reset ()
     });
 
 }
+
+// Click to flip card 
 
 cards.forEach(card => card.addEventListener('click', flipCard));
