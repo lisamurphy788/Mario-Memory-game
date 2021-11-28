@@ -1,14 +1,20 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Style sheet to link css -->
     <link rel="stylesheet" href="assets/css/style.css" >
+    
     <title>Mario Memory Game</title>
+
 </head>
+
 <body>
-    <div class="logo"
-    class="heading">
+  <!--Top area of game to include logo, rules and play again button-->
+    <div class="logo">
         <img src="assets/images/logo.png" class="logo" alt="Mario Game Logo"> 
     </div>
   <Div class="memory-game-container">
@@ -17,16 +23,16 @@
 </div>
 </div>
 
-
 <!-- Rules Modal adapted from https://www.w3schools.com/howto/howto_css_modals.asp -->
+
 <div id="rulesModal" class="modal">
 
   <!-- Modal content Rules of the game -->
   <div class="modal-content">
     <span class="close">&times;</span>
-    <h2 class="rules">
-      <ul>
+    <ul class="rules">
       
+   <!-- List of rules for the game-->   
       <li> In order to begin click on any card to Flip </li>
       <li>You can only flip two cards at a time.</li>
       <li> Your matched cards will stay flipped up. </li>
@@ -35,7 +41,7 @@
       <li>Try to beat your  number of flips with every game.</li>
       
       </ul> 
-  </h2>
+  
   </div>
 
 </div>
@@ -97,30 +103,31 @@
             <img class="back-card" src="assets/images/blank.png" alt="blank">
         </div>
     </div>
-
-    <!--Game information time and flips -->
+    </section>
+    <!--Game number of flips -->
     <div>
-        <div class="game-summary-box">
-            <div onclick="flipcard()" class="game-summary">
-            </div>
-            <div class="game-summary"> Flips:
-              <span class="flips">0</span>
-
-              
-            </div>
-         
+      <div class="game-summary-box">
+          <div onclick="flipcard()" class="game-summary">
+          </div>
+          <div class="game-summary"> Flips:
+            <span class="flips">0</span>   
+        </div>
+      </div>
     </div>
-  </div> 
+
+    <!--Win message game over modal-->
 
   <section class="win-msg">
     <div class="modal" id="gameOver">
+
       <!-- modal content -->
+
       <div class="modal-win">
         <span class="close">&times;</span>
         <h2>Well Done!</h2>
         <br>
         <p>You have won!</p>
-        
+        <!--Shows the flips in modal-->
        <p>You made <span id="finalFlip"> </span> Flips </p>
         
         <img class="modal-img" src="assets/images/star.png" alt="Star Image">
@@ -138,7 +145,6 @@
     <!--font awesome script -->
     <script src="https://kit.fontawesome.com/7d540d0d39.js" crossorigin="anonymous"></script>
 </footer>
-
-    <script src="assets/js/script.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
