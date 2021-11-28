@@ -18,9 +18,9 @@
 * By using the game i should be able to test my memory. 
 
 ### Project Goals 
-The main goal of this project was to build a fun memory game that my little boy could play so he could undertand what types of projects i work on. As he is a Mario fanatic i felt it fitting to use his favourite characters. There is no time limit on this as i didnt want him to feel pressured to get it done in any certain amount of time. 
+The main goal of this project was to build a fun memory game that my little boy could play so he could undertand what types of projects i work on. As he is a Mario fanatic i felt it fitting to use his favourite characters. There is no time limit on this as i didnt want him to feel pressured to get it done in a certain amount of time. 
 
-### User Stories 
+
 #### Site User
 . 
 #### Site Owner

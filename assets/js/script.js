@@ -3,7 +3,10 @@ var modal = document.getElementById("rulesModal");// Get the modal
 var btn = document.getElementById("myBtn");// Get the button that opens the modal
 var span = document.getElementsByClassName("close")[0]; // Get the <span> element that closes the modal
 var flipContainer = document.querySelector(".flips");
-let ismatch = 0;
+
+const allMatch = 6;
+let aMatch = 0
+//let ismatch = 0;
 //const timer = document.getElementsByClassName("timer")
 //const gameOver = document.getElementById("game-over-modal")
 
@@ -67,9 +70,12 @@ function flipCard() {
 function checkForMatch () {
     //stay facing upwards 
     let ismatch = firstCard.dataset.image === secondCard.dataset.image;
-    
-    ismatch ? disableCards() : unflipCards(); // not a match turnback over 
-    if (ismatch === 6) {
+    if (ismatch) aMatch += 1;
+
+    if (ismatch) disableCards ()
+    else unflipCards ()
+    //ismatch ? disableCards() : unflipCards(); // not a match turnback over 
+    if (aMatch === allMatch) {
       alert('You win');
      
      }
@@ -78,6 +84,7 @@ function checkForMatch () {
     modal.style.display = "block"
 }
 */
+
 
 function disableCards () {
     firstCard.removeEventListener('click', flipCard)
@@ -92,7 +99,7 @@ function unflipCards() {
         firstCard.classList.remove('flip');
         secondCard.classList.remove('flip');
     resetBoard();
-    }, 1500);
+    }, 1000);
 }
 
 function resetBoard () {
