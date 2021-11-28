@@ -29,6 +29,7 @@ btn.onclick = function() {
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
+  
 }
 
 // When the user clicks anywhere outside of the modal, close it
@@ -83,10 +84,15 @@ function checkForMatch () {
 }
 // Show Win message 
 function win () {
-    gameOver.style.display = "block"
+    gameOver.style.display = "block";
 }
+span.onclick = function(event) {
 
-
+  if(event.target.class == "close"){
+  document.getElementsById("gameOver").style.display = "none"
+  }
+  
+}
 
 function disableCards () {
     firstCard.removeEventListener('click', flipCard)
