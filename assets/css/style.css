@@ -132,7 +132,7 @@ margin: auto;
   font-weight: bold;
   border: 1px solid yellowgreen;
   padding: 12px 34px;
-  font-size: 16px;
+  font-size: 15px;
   background: yellow;
   position: relative;
   cursor: pointer;
@@ -211,6 +211,7 @@ margin: auto;
     margin: 20px auto;
     display: grid;
     padding-top: 20px;
+    height: 60px;
     
     
   }
@@ -231,6 +232,8 @@ margin: auto;
     margin-left: 20px;
     padding-right: 50px;
   }
+
+  
 /* media for larger screens */
 
 
@@ -271,4 +274,9 @@ body {
     justify-content: center;
     /* justify-content: space-evenly; */
     justify-content: space-evenly;
+}
+
+footer {
+  height: 80px;
+}
 }
