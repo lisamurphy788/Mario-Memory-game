@@ -124,6 +124,7 @@ function reset ()
   aMatch = 0;
   cards.forEach(cardReset => cardReset.classList.remove('flip'));
   resetBoard();
+  cards.forEach(card => card.addEventListener('click', flipCard));
 }, 500);
 }
   
