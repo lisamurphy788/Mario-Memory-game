@@ -113,6 +113,21 @@ function resetBoard() {
   [firstCard, secondCard] = [null, null];
 }
 
+function reset ()
+{
+  setTimeout(() => {
+  flippedCard = false;
+  flips = 0;
+  flipContainer.innerHTML = 0;
+  [firstCard, secondCard] = [null, null];
+  shuffle();
+  aMatch = 0;
+  cards.forEach(cardReset => cardReset.classList.remove('flip'));
+  resetBoard();
+}, 500);
+}
+  
+
 //Timer
 /*function timer() {
     var count = 120, timer = setInterval(function() {
@@ -125,12 +140,12 @@ function resetBoard() {
     }, 1000);
   }*/
 
-(function shuffle() {
-  cards.forEach(card => {
-    let randomPosition = Math.floor(Math.random() * 12);
-    card.style.order = randomPosition;
-  });
+  function shuffle() {
+    cards.forEach(cards => {
+        let randomPosition = Math.floor(Math.random() * 16);
+        cards.style.order = randomPosition;
+    });
 
-})();
+}
 
 cards.forEach(card => card.addEventListener('click', flipCard));
