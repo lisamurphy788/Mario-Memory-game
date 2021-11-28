@@ -3,6 +3,7 @@ var modal = document.getElementById("rulesModal");// Get the modal
 var btn = document.getElementById("myBtn");// Get the button that opens the modal
 var span = document.getElementsByClassName("close")[0]; // Get the <span> element that closes the modal
 var flipContainer = document.querySelector(".flips");
+const gameOver = document.getElementById("gameOver")
 
 const allMatch = 6;
 let aMatch = 0
@@ -70,20 +71,21 @@ function flipCard() {
 function checkForMatch () {
     //stay facing upwards 
     let ismatch = firstCard.dataset.image === secondCard.dataset.image;
-    if (ismatch) aMatch += 1;
+    if (ismatch) aMatch += 1; // every matched card
 
     if (ismatch) disableCards ()
     else unflipCards ()
-    //ismatch ? disableCards() : unflipCards(); // not a match turnback over 
-    if (aMatch === allMatch) {
-      alert('You win');
+   
+    if (aMatch === allMatch) win () //{ // all cards are matched
+      //alert('You win');
      
-     }
+    // }
 }
-/*function gameOver() {
-    modal.style.display = "block"
+// Show Win message 
+function win () {
+    gameOver.style.display = "block"
 }
-*/
+
 
 
 function disableCards () {
