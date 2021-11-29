@@ -1,8 +1,9 @@
 # MARIO MEMORY GAME
 
 ## DEMO
-[THE LIVE WEBSITE CAN BE FOUND HERE](https://lisamurphy788.github.io/Mario-Memory-game/)
-# am i reponsive image here
+<img src = /workspace/Mario-Memory-game/assets/images/amiresponsiveimg.PNG >
+
+[Mario Memory Game Live Website](https://lisamurphy788.github.io/Mario-Memory-game/)
 
 # Table of Contents 
 
@@ -17,16 +18,14 @@
 * As a user of the game i should know the numer of flips i have had. 
 * By using the game i should be able to test my memory. 
 
-### Project Goals 
-The main goal of this project was to build a fun memory game that my little boy could play so he could undertand what types of projects i work on. As he is a Mario fanatic i felt it fitting to use his favourite characters. There is no time limit on this as i didnt want him to feel pressured to get it done in a certain amount of time. 
 
-
-#### Site User
-. 
 #### Site Owner
 
+### Project Goals 
+The main goal of this project was to build a fun memory game that my little boy could play with so he could get a better undertanding what types of projects i work on. As he is a Mario fanatic i felt it fitting to use his favourite characters. There is no time limit on this as i didnt want him to feel pressured to get it done in a certain amount of time. 
 
  ### Design Choices
+ 
  #### Typography
 
  #### Colors
