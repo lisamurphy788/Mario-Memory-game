@@ -77,7 +77,6 @@ body {
     padding: 20px;
     position: absolute;
     border-radius: 15px;
-    background: blue;
     backface-visibility: hidden;
 }
 
