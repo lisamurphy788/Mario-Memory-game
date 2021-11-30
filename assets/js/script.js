@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const cards = document.querySelectorAll(".card");
 var modal = document.getElementById("rulesModal"); // Get the modal
 var btn = document.getElementById("myBtn"); // Get the button that opens the modal
@@ -69,6 +70,7 @@ function checkForMatch() {
 
     if (aMatch === allMatch) win();
 }
+
 // Show Win message
 function win() {
     gameOver.style.display = "block";
