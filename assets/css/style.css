@@ -58,7 +58,7 @@ body {
     cursor: pointer;
     height: 100px;
     width: 100px;
-    background: blue;
+    
 }
 .card:active {
     transform: scale(0.97);
@@ -78,6 +78,9 @@ body {
     position: absolute;
     border-radius: 15px;
     backface-visibility: hidden;
+}
+.front-card {
+    background: blue;
 }
 
 /*Allowing for flip */
