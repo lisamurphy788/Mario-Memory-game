@@ -79,7 +79,7 @@ body {
     border-radius: 15px;
     backface-visibility: hidden;
 }
-.front-card {
+.back-card {
     background: blue;
 }
 
