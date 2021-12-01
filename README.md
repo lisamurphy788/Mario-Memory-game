@@ -1,7 +1,8 @@
 # MARIO MEMORY GAME
 
-## DEMO
-<img src = /workspace/Mario-Memory-game/assets/images/amiresponsiveimg.PNG >
+![Am i responsive](assets/images/amiresponsiveimg.png)
+
+
 
 [Mario Memory Game Live Website](https://lisamurphy788.github.io/Mario-Memory-game/)
 
@@ -42,9 +43,10 @@ All images used were characters from Mario
 #### Wireframes 
 Wireframes were designed for laptop, table and phone dislay,
 
-Game Area - Desktop can be found [Here](/workspace/Mario-Memory-game/assets/images/wireframesDT.png) Win Message - [Here](/workspace/Mario-Memory-game/assets/images/wireframes2DT.png)
+Game Area - Desktop can be found [Here](/assets/images/wireframesDT.png) Win Message - [Here](assets/images/wireframes2DT.png)
 
-Game Area - Tablet and Phone can be found [Here](/workspace/Mario-Memory-game/assets/images/wireframesmobtab.png) Win Message -  [Here](/workspace/Mario-Memory-game/assets/images/wireframesmobtabwin.png)
+Game Area - Tablet and Phone can be found [Here](/assets/images/wireframesmobtab.png) Win Message -  [Here](assets/images/wireframesmobtabwin.png)
+
  ## Features
  ### Existing Features
  #### Current Features 
