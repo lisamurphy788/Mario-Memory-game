@@ -37,7 +37,7 @@
 
 The results are listed below;
 
-## Main Screen 
+### Game Area
 |Device    |Images     |Flip    |Flip Counter   |Rules Modal    |Win Modal
 |---       |---        |---     |---   |--- |--- 
 |Samsung S5     |Responsive      |Responsive     | Responsive|Responsive|Responsive|
@@ -46,3 +46,14 @@ The results are listed below;
 |ipad     |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
 |ipad pro |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
 |Desktop 1024px |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
+
+Click [Here]() to review a video on testing responsiveness on Chrome Dev tools 
+
+## Browser Compatibility Testing
+### **Browser type**
+
+ |**Chrome**|**Internet Explorer**|**Firefox**|**Edge**|
+ |---|---|---|---|
+ |Responsive|Responsive|Responsive|Responsive|
+ |Appearance Good|Appearance Good|Appearance Good|Appearance Good|
+ 
