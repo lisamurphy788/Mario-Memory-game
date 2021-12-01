@@ -17,4 +17,14 @@
 
  At first i recieved over 23 warnings and one unused variable due to esversion 6 and using arrow functions. I fixed 22 of the warnings by adding  /*jshint esversion: 6 */ to the top of the code this instucts JSHint to ignore these. So then i was left with one warning and one unused variable. 
 
- Click [Here]()
+ Click [Here](/workspace/Mario-Memory-game/assets/images/JSHint.png) to view results.
+
+ ## Functionality 
+1. As a user of the game i should be able to see the rules of the game. - The user is able to click on the rules button to view the game rules - Passed 
+1. As a user of the game i should be able to click on a card to begin the game. - The user is able to click on any card to begin the game - Passed 
+1. As a user of the game i should only be allowed to click on two cards at a time. - The user is only able to click on two cards at a time the board will lock - Passed
+1. Any card matches should stay facing upwards. - The cards will only stay facing upwards when two cards have matched - Passed
+1. Any cards not marched should turn backwards. - If the cards don't match they will flip backwards - Passed 
+1. As a user of the game i should know the numer of flips i have had. - The flip counter at the bottom of the page counts the number of flips - Passed
+1. As a user of the game i should recieve a win message once all matches have been made - The win modal pops up once all the matches have been found and includes a total number of flips - Passed
+1. By using the game i should be able to test my memory. - Remembering where each card is positioned is testing my memory. Replaying the game to see if i can reduce my number of flips will challenge my memory - Passed 
