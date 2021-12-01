@@ -35,11 +35,38 @@ The main goal of this project was to build a fun memory game that my little boy 
 
 
 #### Wireframes 
+Wireframes were designed for laptop, table and phone dislay,
 
- 
+Game Area - Desktop can be found [Here](/workspace/Mario-Memory-game/assets/images/wireframesDT.png) Win Message - [Here](/workspace/Mario-Memory-game/assets/images/wireframes2DT.png)
+
+Game Area - Tablet and Phone can be found [Here](/workspace/Mario-Memory-game/assets/images/wireframesmobtab.png) Win Message -  [Here](/workspace/Mario-Memory-game/assets/images/wireframesmobtabwin.png)
  ## Features
  ### Existing Features
+ #### Current Features 
 
+ Game Area
+
+ The game area is set up using CSS grid. Setting it up this way helped with responsiveness. There is a total of 12 cards 6 pairs. I kept it simple in order to keep the user engaged. 
+
+  ![Image of Game Area](/assets/images/game.png)
+
+  Rules Button 
+
+  ![Image of Rules Button](/assets/images/rules.png)
+
+  Matching Cards
+
+  ![Image of Matching Cards](/assets/images/matchingCards.png)
+
+  Win Modal 
+
+  ![Image of Win Message](/assets/images/winMessage.png)
+
+  Play Again 
+
+  ![Image of Play Again](/assets/images/playAgain.png)
+
+   
 
  ### **Future Features**
 
