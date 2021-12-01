@@ -27,12 +27,17 @@ The main goal of this project was to build a fun memory game that my little boy 
 
  ### Design Choices
  
- #### Typography
+#### Background image 
 
- #### Colors
 
- #### Images
+#### Images
 
+
+
+#### Colors
+
+ 
+All images used were characters from Mario 
 
 #### Wireframes 
 Wireframes were designed for laptop, table and phone dislay,
