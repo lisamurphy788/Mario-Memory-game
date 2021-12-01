@@ -17,7 +17,11 @@
 
  At first i recieved over 23 warnings and one unused variable due to esversion 6 and using arrow functions. I fixed 22 of the warnings by adding  /*jshint esversion: 6 */ to the top of the code this instucts JSHint to ignore these. So then i was left with one warning and one unused variable. 
 
- Click [Here](/workspace/Mario-Memory-game/assets/images/JSHint.png) to view results.
+ Click [Here](/assets/images/JSHint.png) to view results.
+
+ **Lighthouse** - The lighthouse report was created using chrome dev tools on my laptop. 
+
+ Click [Here](/assets/images/lighthouse.png) to view the results. 
 
  ## Functionality 
 1. As a user of the game i should be able to see the rules of the game. - The user is able to click on the rules button to view the game rules - Passed 
@@ -28,12 +32,12 @@
 1. As a user of the game i should know the numer of flips i have had. - The flip counter at the bottom of the page counts the number of flips - Passed
 1. As a user of the game i should recieve a win message once all matches have been made - The win modal pops up once all the matches have been found and includes a total number of flips - Passed
 1. By using the game i should be able to test my memory. - Remembering where each card is positioned is testing my memory. Replaying the game to see if i can reduce my number of flips will challenge my memory - Passed 
+1. By clicking the links on the footer it should take me to social media sites - Passed 
 
 ## Responsiveness 
 
 - For all my responsiveness testing I used chrome dev tools
 - Family and Friends also tested on different mobile devices
-- iPad pro and Samsung tablets were also used for testing tablets
 
 The results are listed below;
 
@@ -57,3 +61,10 @@ Click [Here]() to review a video on testing responsiveness on Chrome Dev tools
  |Responsive|Responsive|Responsive|Responsive|
  |Appearance Good|Appearance Good|Appearance Good|Appearance Good|
  
+ # BUGS
+
+## Unsolved
+
+The site is working on all devices and is fully responsive using chrome dev tools. However when using an iphone the flip function is not fully rotating. I have tried numerous fixes to overcome this however from the research i have conducted i have found that this bug is extremely common on IOS devices. 
+
+I am documenting the bug here
