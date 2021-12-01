@@ -93,7 +93,7 @@ To clone this project from GitHub:
 ### Media
 All of the pictures used for the characters of the game where taken from [Clipart-Library](http://clipart-library.com/clipart/1346332.htm).
 
-The background image of the game was taken from Pixabay 
+The background image of the game was taken from [Pixabay]() 
 
 All of the icons for this website have been taken from [Fontawesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2)
 
@@ -103,3 +103,10 @@ I used Freeformater to run my HTML, CSS and Javascript through for cleaning and 
 
 
 ### Acknowledgments
+I would like to thank my mentor Brian O'Hare for his guidance and support throughout this project.
+
+Sean in student support who helped me figure out some Javascript functions. 
+
+My partner Sean for his continued support and minding the kids.
+
+Marie, Anne, Elaine, and Sarah for their help with testing.
