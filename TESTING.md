@@ -28,3 +28,21 @@
 1. As a user of the game i should know the numer of flips i have had. - The flip counter at the bottom of the page counts the number of flips - Passed
 1. As a user of the game i should recieve a win message once all matches have been made - The win modal pops up once all the matches have been found and includes a total number of flips - Passed
 1. By using the game i should be able to test my memory. - Remembering where each card is positioned is testing my memory. Replaying the game to see if i can reduce my number of flips will challenge my memory - Passed 
+
+## Responsiveness 
+
+- For all my responsiveness testing I used chrome dev tools
+- Family and Friends also tested on different mobile devices
+- iPad pro and Samsung tablets were also used for testing tablets
+
+The results are listed below;
+
+## Main Screen 
+|Device    |Images     |Flip    |Flip Counter   |Rules Modal    |Win Modal
+|---       |---        |---     |---   |--- |--- 
+|Samsung S5     |Responsive      |Responsive     | Responsive|Responsive|Responsive|
+|iphone 5   |Responsive |Responsive |Responsive|Responsive|Responsive|
+|iphone 6/7/8     |Responsive      |Responsive     |  Responsive     |Responsive|Responsive|
+|ipad     |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
+|ipad pro |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
+|Desktop 1024px |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
