@@ -78,10 +78,9 @@ body {
     position: absolute;
     border-radius: 15px;
     backface-visibility: hidden;
-}
-.back-card {
     background: blue;
 }
+
 
 /*Allowing for flip */
 .front-card {
