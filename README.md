@@ -26,13 +26,17 @@
 ### Project Goals 
 The main goal of this project was to build a fun memory game that my little boy could play with so he could get a better undertanding what types of projects i work on. As he is a Mario fanatic i felt it fitting to use his favourite characters. There is no time limit on this as i didnt want him to feel pressured to get it done in a certain amount of time. 
 
- ### Design Choices
- 
+### Design Choices
+All Mario games are bright and fun using lots of primary colors. I kept the design light and similar to the color schemes that would be used in a mario game. 
+
 #### Background image 
 
+For the background image i used a animated blue sky with clouds and green grass. 
+![Background image](/assets/images/sky.png)
 
 #### Images
 
+For the cards i used all the main characters of Mario. 
 
 
 #### Colors
