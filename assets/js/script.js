@@ -3,8 +3,8 @@ const cards = document.querySelectorAll(".card");
 var modal = document.getElementById("rulesModal"); // Get the modal
 var btn = document.getElementById("myBtn"); // Get the button that opens the modal
 var span = document.getElementsByClassName("close")[0]; // Get the <span> element that closes the modal
-var flipContainer = document.querySelector(".flips");
-const gameOver = document.getElementById("gameOver");
+var flipContainer = document.querySelector(".flips"); // flips 
+const gameOver = document.getElementById("gameOver"); // call the win modal/game over modal
 
 const allMatch = 6; // Shows the total number of pairs
 let aMatch = 0; // cards match
@@ -32,6 +32,11 @@ window.onclick = function (event) {
         modal.style.display = "none";
     }
 };
+
+
+/* Adapted from  https://marina-ferreira.github.io/tutorials/js/memory-game/ 
+*/
+
 //Flips
 
 flips = 0;
@@ -59,11 +64,17 @@ function flipCard() {
     secondCard = this;
     checkForMatch();
 }
+ 
+ /*
+ Adapted from https://marina-ferreira.github.io/tutorials/js/memory-game/ 
+ */
+
+// Checking for a Match
 
 function checkForMatch() {
     //stay facing upwards
     let ismatch = firstCard.dataset.image === secondCard.dataset.image;
-    if (ismatch) aMatch += 1; // every matched card
+    if (ismatch) aMatch += 1; // increase every matched card
 
     if (ismatch) disableCards();
     else unflipCards();
@@ -72,21 +83,29 @@ function checkForMatch() {
 }
 
 // Show Win message
+
 function win() {
     gameOver.style.display = "block";
-    // show flips on win message
+
+// show flips on win message
+
     document.getElementById("finalFlip").innerHTML = flips;
 }
 
 // Close out of win Modal
+
 const close = document.querySelector(".modal-win span");
 close.onclick = () => (document.getElementById("gameOver").style.display = "none");
+
+// matched cards will be disabled for clicks once they are fliped
 
 function disableCards() {
     firstCard.removeEventListener("click", flipCard);
     secondCard.removeEventListener("click", flipCard);
     resetBoard();
 }
+
+// board is locked until cards are back 
 
 function unflipCards() {
     lockBoard = true;
