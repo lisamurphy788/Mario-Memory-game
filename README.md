@@ -1,6 +1,6 @@
 # MARIO MEMORY GAME
 
-![Am i responsive](assets/images/amiresponsiveimg.png)
+![Am i responsive](/assets/readme-docs/am-i-responsive.png)
 
 
 
@@ -47,9 +47,9 @@ All images used were characters from Mario
 #### Wireframes 
 Wireframes were designed for laptop, table and phone dislay,
 
-Game Area - Desktop can be found [Here](/assets/images/wireframesDT.png) Win Message - [Here](assets/images/wireframes2DT.png)
+Game Area - Desktop can be found [Here](/assets/readme-docs/wireframes-desktop.png) Win Message - [Here](/assets/readme-docs/wireframes-win-desktop.png)
 
-Game Area - Tablet and Phone can be found [Here](/assets/images/wireframesmobtab.png) Win Message -  [Here](assets/images/wireframesmobtabwin.png)
+Game Area - Tablet and Phone can be found [Here](/assets/readme-docs/wireframes-mob-tab.png) Win Message -  [Here](/assets/readme-docs/wireframes-win-mob-tab.png)
 
  ## Features
  ### Existing Features
