@@ -21,7 +21,7 @@
 
  **Lighthouse** - The lighthouse report was created using chrome dev tools on my laptop. 
 
- Click [Here](/assets/images/lighthouse.png) to view the results. 
+ Click [Here](/assets/readme-docs/lighthouse.png) to view the results. 
 
  ## Functionality 
 1. As a user of the game I should be able to see the rules of the game. - The user is able to click on the rules button to view the game rules - Passed 
