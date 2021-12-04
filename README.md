@@ -195,7 +195,7 @@ To clone this project from GitHub:
 
 [CSS Grid](https://www.youtube.com/watch?v=9zBsdzdE4sM) to help with CSS grid and flex. 
 
-[Javascript in 3 hours](https://youtu.be/PkZNo7MFNFg) to help gain more of an understanding of javascript.
+[Javascript in 3 hours](https://youtu.be/PkZNo7MFNFg) to help gain more of an understanding of javaScript.
 
 [Modern JS](https://youtu.be/iWOYAxlnaww?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc) to help gain more of a understanding of JavaScript.
 
