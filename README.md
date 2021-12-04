@@ -6,22 +6,18 @@
 
 [Mario Memory Game Live Website](https://lisamurphy788.github.io/Mario-Memory-game/)
 
-# Table of Contents 
-
 # User Experience
 
 ## User Stories 
 * As a user of the game i should be able to see the rules of the game.
 * As a user of the game i should be able to click on a card to begin the game.
 * As a user of the game i should only be allowed to click on two cards at a time. 
-* Any card matches should stay facing upwards.
-* Any cards not marched should turn backwards. 
-* As a user of the game i should know the numer of flips i have had. 
+* Matching Cards should stay facing upwards.
+* Any cards not matched should turn backwards. 
+* As a user of the game i should know the numer of flips i have taken.
 * By using the game i should be able to test my memory. 
 * As a user of the game i should be able to click on social icons on footer to bring me to social media page. 
 
-
-#### Site Owner
 
 ### Project Goals 
 The main goal of this project was to build a fun memory game that my little boy could play with so he could get a better undertanding what types of projects i work on. As he is a Mario fanatic i felt it fitting to use his favourite characters. There is no time limit on this as i didnt want him to feel pressured to get it done in a certain amount of time. 
@@ -33,11 +29,14 @@ All Mario games are bright and fun using lots of primary colors. I kept the desi
 
 For the background image i used a animated blue sky with clouds and green grass. The image is similar to what you would see if you were playing a Mario game. 
 
-![Background image](/assets/images/sky.png)
+![Background image](/assets/images/sky.png) 
 
 #### Images
 
 For the cards i used all the main characters of Mario. These can be seen throughout the game. 
+All of the character images where taken from [Clipart-Library](http://clipart-library.com/clipart/1346332.htm). The backgound image was taken from Shutter Stock. 
+
+![Characters](/assets/readme-docs/characters.png)
 
 
 #### Colors
@@ -52,7 +51,7 @@ The color scheme was to tie in with the theme, bright and fun colors were used s
 
 #### Typpgraphy 
 
-I used google font 'Kanit' as it looked fun and the closest i could get. I did use Irish Groover first but found it was extremely difficult to read in the modals. 
+I used Google Fonts 'Kanit' as it looked fun and the closest i could get to the font that is used in the game. I did use Irish Groover first but found it was extremely difficult to read in the modals. 
 
 
 #### Wireframes 
