@@ -70,6 +70,8 @@ Game Area - Tablet and Phone can be found [Here](/assets/readme-docs/wireframes-
 
   #### Rules Button 
 
+  I wanted to have this as a button that the user could click on so they would understand the rules of the game and how to begin. 
+
   Desktop 
 
   ![Image of Rules Button](/assets/readme-docs/rules-modal-desktop.png)
@@ -81,9 +83,13 @@ Game Area - Tablet and Phone can be found [Here](/assets/readme-docs/wireframes-
 
  #### Matching Cards
 
+ Shows the user that they matched two cards by leaving the cards staying upright. 
+
   ![Image of Matching Cards](/assets/readme-docs/matching-cards.png)
 
   #### Win Modal 
+
+  This feature shows the user the game is over and how many flips it took. I included and close out so the user has the option to close out and play again. 
 
   Desktop 
 
@@ -96,21 +102,28 @@ Game Area - Tablet and Phone can be found [Here](/assets/readme-docs/wireframes-
 
   Play Again 
 
+  This function resets the game and reshuffle the cards so the user can enjoy another game and try to beat their previous score. 
+
   ![Image of Play Again](/assets/readme-docs/play-again.png)
 
   Button Options 
+
+  The user can see the options on the screen at the start of the game. 
 
   ![Image of Button Options](/assets/readme-docs/button-options.png)
 
   Flips Counter 
 
+  The flips counter shows the user how many times they have fliped a card. At the end of the game the win modal shows the total number of flips. The user can then play again if they wish to beat their score. 
+
   ![Image of Flips Counter](/assets/readme-docs/flips-counter.png)
 
   Header and Footer 
 
+  The header image is a image of all different characters of Mario. The footer has all active socials included. 
+
   ![Image of Header](/assets/readme-docs/header-image.png)
   ![Image of Flips Counter](/assets/readme-docs/footer.png)
-
 
 
    
@@ -162,7 +175,25 @@ To clone this project from GitHub:
 
 
  ## Credits 
- ### Content 
+### Code 
+[w3schools](https://www.w3schools.com/howto/howto_css_modals.asp) was used to help with making the modals. 
+
+[Memory Game - Vanilla JavaScript](hhttps://www.youtube.com/watch?v=ZniVgo8U7ek&t=25s) was used and adapted to help with making the card game area, CSS Flips and JS functions. - Marina Ferreira 
+
+[Demo](https://marina-ferreira.github.io/memory-game/) was used and adapted to help with making the card game area, CSS Flips and JS functions. - Marina Ferreira 
+
+[Memory Game](https://www.youtube.com/watch?v=LIXfkqkkeOg) for inspiration.
+
+[CSS Grid](https://www.youtube.com/watch?v=9zBsdzdE4sM) to help with CSS grid and flex. 
+
+[Javascript in 3 hours](https://youtu.be/PkZNo7MFNFg) to help gain more of an understanding of javascript.
+
+[Modern JS](https://youtu.be/iWOYAxlnaww?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc) to help gain more of a understanding of Javascript.
+
+[Simple javasctipt game](https://youtu.be/bG2BmmYr9NQ) was used to help get a better understanding of functions. 
+
+
+
 ### Media
 All of the pictures used for the characters of the game where taken from [Clipart-Library](http://clipart-library.com/clipart/1346332.htm).
 
