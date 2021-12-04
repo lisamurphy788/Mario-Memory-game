@@ -31,18 +31,25 @@ All Mario games are bright and fun using lots of primary colors. I kept the desi
 
 #### Background image 
 
-For the background image i used a animated blue sky with clouds and green grass. 
+For the background image i used a animated blue sky with clouds and green grass. The image is similar to what you would see if you were playing a Mario game. 
+
 ![Background image](/assets/images/sky.png)
 
 #### Images
 
-For the cards i used all the main characters of Mario. 
+For the cards i used all the main characters of Mario. These can be seen through out the game. 
 
 
 #### Colors
 
+The color scheme was to tie in with the theme, bright and fun colors were used so they would provide good contrast throughout the game. 
+
+![Color Palet](/assets/readme-docs/color-palet.png)
  
-All images used were characters from Mario 
+ Background Palet 
+
+ ![Color Palet](/assets/readme-docs/background-palet.png)
+
 
 #### Wireframes 
 Wireframes were designed for laptop, table and phone dislay,
