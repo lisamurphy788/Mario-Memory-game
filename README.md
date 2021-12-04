@@ -9,32 +9,32 @@
 # User Experience
 
 ## User Stories 
-* As a user of the game i should be able to see the rules of the game.
-* As a user of the game i should be able to click on a card to begin the game.
-* As a user of the game i should only be allowed to click on two cards at a time. 
+* As a user of the game I should be able to see the rules of the game.
+* As a user of the game I should be able to click on a card to begin the game.
+* As a user of the game I should only be allowed to click on two cards at a time.
 * Matching Cards should stay facing upwards.
-* Any cards not matched should turn backwards. 
-* As a user of the game i should know the numer of flips i have taken.
-* By using the game i should be able to test my memory. 
-* As a user of the game i should be able to click on social icons on footer to bring me to social media page. 
+* Any cards not matched should turn backwards.
+* As a user of the game I should know the number of flips I have taken.
+* By using the game I should be able to test my memory.
+* As a user of the game I should be able to click on social icons on footer to bring me to social media page.
 
 
 ### Project Goals 
-The main goal of this project was to build a fun memory game that my little boy could play with so he could get a better undertanding what types of projects i work on. As he is a Mario fanatic i felt it fitting to use his favourite characters. There is no time limit on this as i didnt want him to feel pressured to get it done in a certain amount of time. 
+The main goal of this project was to build a fun memory game that my little boy could play with so he could get a better understanding what types of projects I work on. As he is a Mario fanatic I felt it fitting to use his favorite characters. There is no time limit on this as I didn't want him to feel pressured to get it done in a certain amount of time.
 
 ### Design Choices
-All Mario games are bright and fun using lots of primary colors. I kept the design light and similar to the color schemes that would be used in a mario game. 
+All Mario games are bright and fun using lots of primary colors. I kept the design light and similar to the color schemes that would be used in a Mario game.
 
 #### Background image 
 
-For the background image i used a animated blue sky with clouds and green grass. The image is similar to what you would see if you were playing a Mario game. 
+For the background image i used a image of a blue sky with clouds and green grass. The image is similar to what you would see if you were playing a Mario game. 
 
 ![Background image](/assets/images/sky.png) 
 
 #### Images
 
-For the cards i used all the main characters of Mario. These can be seen throughout the game. 
-All of the character images where taken from [Clipart-Library](http://clipart-library.com/clipart/1346332.htm). The backgound image was taken from Shutter Stock. 
+For the cards I used all the main characters of Mario. These can be seen throughout the game. 
+All of the character images where taken from [Clipart-Library](http://clipart-library.com/clipart/1346332.htm). The background image was taken from Shutter Stock. 
 
 ![Characters](/assets/readme-docs/characters.png)
 
@@ -43,20 +43,20 @@ All of the character images where taken from [Clipart-Library](http://clipart-li
 
 The color scheme was to tie in with the theme, bright and fun colors were used so they would provide good contrast throughout the game. 
 
-![Color Palet](/assets/readme-docs/color-palet.png)
+![Color Pallet](/assets/readme-docs/color-palet.png)
  
- Background Palet 
+ Background Pallet 
 
- ![Color Palet](/assets/readme-docs/background-palet.png)
+ ![Color Pallet](/assets/readme-docs/background-palet.png)
 
-#### Typpgraphy 
+#### Typography 
 
-I used Google Fonts 'Kanit' as it looked fun and the closest i could get to the font that is used in the game. I did use Irish Groover first but found it was extremely difficult to read in the modals. 
+I used Google Fonts 'Kanit' as it looked fun and the closest I could get to the font that is used in the game. I did use Irish Groover first but found it was extremely difficult to read in the modals. 
 
 
 #### Wireframes 
 
-Wireframes were designed for laptop, table and phone dislay,
+Wireframes were designed for laptop, table and phone display,
 
 Game Area - Desktop can be found [Here](/assets/readme-docs/wireframes-desktop.png) Win Message - [Here](/assets/readme-docs/wireframes-win-desktop.png)
 
@@ -106,7 +106,7 @@ Game Area - Tablet and Phone can be found [Here](/assets/readme-docs/wireframes-
 
   Play Again 
 
-  This function resets the game and reshuffle the cards so the user can enjoy another game and try to beat their previous score. 
+  This function resets the game and reshuffle's the cards so the user can enjoy another game and try to beat their previous score. 
 
   ![Image of Play Again](/assets/readme-docs/play-again.png)
 
@@ -133,8 +133,8 @@ Game Area - Tablet and Phone can be found [Here](/assets/readme-docs/wireframes-
    
  ### **Future Features**
 
- * Timer - A countdown timer would be a future feature i would recommend 
- * Sound - Some audio would add to the existing fuctionality and would make the game fun. 
+ * Timer - A countdown timer would be a future feature I would recommend 
+ * Sound - Some audio would add to the existing functionality and would make the game fun. 
 
  ## Main Technologies Used
 - [Github](https://github.com/) Used for hosting the project
@@ -142,16 +142,16 @@ Game Area - Tablet and Phone can be found [Here](/assets/readme-docs/wireframes-
 - [HTML](https://en.wikipedia.org/wiki/HTML5) Used to provide content and structure
 - [CSS](https://www.w3schools.com/css/) Used to provide styling
 - [Am I Responsive](http://ami.responsivedesign.is/) Used to show visual responsiveness
-- [Free Formatter](https://www.freeformatter.com) Used to clean up HTML, CSS and Javascript.
+- [Free Formatter](https://www.freeformatter.com) Used to clean up HTML, CSS and JavaScript.
 - [Googe Fonts](https://fonts.google.com/) Used for main fonts listed.
 - [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2) Used for icons for social media .
 - [Canva](https://www.canva.com/) Used to remove the background from the images.
 - [Balsamiq](https://balsamiq.com/) Used for wireframes.
 - [Google Chrome Screen Reader Extension](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en) Used to test screen reading
-- [Vimeo Screen Recorder](https://vimeo.com/) Used to record final testing of site for reponsiveness.
-- [Coolors](https://coolors.co/) was used to create the color palets. 
+- [Vimeo Screen Recorder](https://vimeo.com/) Used to record final testing of site for responsiveness.
+- [Coolors](https://coolors.co/) was used to create the color pallets. 
 - [CSS validator](https://jigsaw.w3.org/css-validator/) was used for testing css and can be found in the testing section. 
-- [HTML Validator](https://validator.w3.org/) was used for testing HTML and can be found int he testing section.  
+- [HTML Validator](https://validator.w3.org/) was used for testing HTML and can be found in the testing section.  
 - [JSHint](https://jshint.com/) was used for testing Javascript and can be found in the testing section.
 
  ## Testing
@@ -175,7 +175,7 @@ Only one branch has been used for this project.
 To clone this project from GitHub:
 
 1. Under the repository’s name, click Clone or download.
-2. In the Clone hTTPS section, copy the URL.
+2. In the Clone HTTPS section, copy the URL.
 3. In your IDE, open **Git Bash**.
 4. Change directory to the location where you want the cloned directory to be made.
 5. Type **git clone**, and then paste the URL copied from GitHub.
@@ -197,7 +197,7 @@ To clone this project from GitHub:
 
 [Javascript in 3 hours](https://youtu.be/PkZNo7MFNFg) to help gain more of an understanding of javascript.
 
-[Modern JS](https://youtu.be/iWOYAxlnaww?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc) to help gain more of a understanding of Javascript.
+[Modern JS](https://youtu.be/iWOYAxlnaww?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc) to help gain more of a understanding of JavaScript.
 
 [Simple javasctipt game](https://youtu.be/bG2BmmYr9NQ) was used to help get a better understanding of functions. 
 
@@ -213,13 +213,13 @@ All of the icons for this website have been taken from [Fontawesome](https://fon
 
 The fonts used in this website was used from [Google fonts](https://fonts.google.com/)
 
-I used Freeformater to run my HTML, CSS and Javascript through for cleaning and indentation. [Free Formatter](https://www.freeformatter.com/)
+I used Freeformater to run my HTML, CSS and JavaScript through for cleaning and indentation. [Free Formatter](https://www.freeformatter.com/)
 
 
 ### Acknowledgments
 I would like to thank my mentor Brian O'Hare for his guidance and support throughout this project.
 
-Sean in student support who helped me figure out some Javascript functions. 
+Sean in student support who helped me figure out some JavaScript functions. 
 
 My partner Sean for his continued support and minding the kids.
 
