@@ -98,6 +98,21 @@ Game Area - Tablet and Phone can be found [Here](/assets/readme-docs/wireframes-
 
   ![Image of Play Again](/assets/readme-docs/play-again.png)
 
+  Button Options 
+
+  ![Image of Button Options](/assets/readme-docs/button-options.png)
+
+  Flips Counter 
+
+  ![Image of Flips Counter](/assets/readme-docs/flips-counter.png)
+
+  Header and Footer 
+
+  ![Image of Header](/assets/readme-docs/header-image.png)
+  ![Image of Flips Counter](/assets/readme-docs/footer.png)
+
+
+
    
  ### **Future Features**
 
