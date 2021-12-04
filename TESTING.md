@@ -39,7 +39,7 @@
 - For all my responsiveness testing I used chrome dev tools
 - Family and Friends also tested on different mobile devices
 
-The results are listed below;
+The results are listed below:
 
 ### Game Area -  tested using chrome dev tools
 |Device    |Images     |Flip    |Flip Counter   |Rules Modal    |Win Modal
