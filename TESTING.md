@@ -15,7 +15,7 @@
 
  **Jshint** - I tested the Javascript code using [JSHint](https://jshint.com/).
 
- At first i recieved over 23 warnings and one unused variable due to esversion 6 and using arrow functions. I fixed 22 of the warnings by adding  /*jshint esversion: 6 */ to the top of the code this instucts JSHint to ignore these. So then i was left with one warning and one unused variable. 
+ At first i recieved over 23 warnings and one unused variable due to esversion 6 and using arrow functions. I fixed 22 of the warnings by adding  /*jshint esversion: 6 */ to the top of the code this instucts JSHint to ignore these. So then i was left with one warning and one unused variable and one redefinition of variable. The one unused variable was for the reset function which is working perfectly when you hit play again. 
 
  Click [Here](/assets/images/JSHint.png) to view results.
 
@@ -41,7 +41,7 @@
 
 The results are listed below;
 
-### Game Area
+### Game Area -  tested using chrome dev tools
 |Device    |Images     |Flip    |Flip Counter   |Rules Modal    |Win Modal
 |---       |---        |---     |---   |--- |--- 
 |Samsung S5     |Responsive      |Responsive     | Responsive|Responsive|Responsive|
@@ -51,7 +51,7 @@ The results are listed below;
 |ipad pro |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
 |Desktop 1024px |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
 
-Click [Here]() to review a video on testing responsiveness on Chrome Dev tools 
+Click [Here](https://vimeo.com/653126593/23b7fb45ca) to review a video on testing responsiveness on Chrome Dev tools 
 
 ## Browser Compatibility Testing
 ### **Browser type**
