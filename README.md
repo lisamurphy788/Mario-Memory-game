@@ -37,7 +37,7 @@ For the background image i used a animated blue sky with clouds and green grass.
 
 #### Images
 
-For the cards i used all the main characters of Mario. These can be seen through out the game. 
+For the cards i used all the main characters of Mario. These can be seen throughout the game. 
 
 
 #### Colors
@@ -50,8 +50,13 @@ The color scheme was to tie in with the theme, bright and fun colors were used s
 
  ![Color Palet](/assets/readme-docs/background-palet.png)
 
+#### Typpgraphy 
+
+I used google font 'Kanit' as it looked fun and the closest i could get. I did use Irish Groover first but found it was extremely difficult to read in the modals. 
+
 
 #### Wireframes 
+
 Wireframes were designed for laptop, table and phone dislay,
 
 Game Area - Desktop can be found [Here](/assets/readme-docs/wireframes-desktop.png) Win Message - [Here](/assets/readme-docs/wireframes-win-desktop.png)
@@ -138,13 +143,17 @@ Game Area - Tablet and Phone can be found [Here](/assets/readme-docs/wireframes-
 - [HTML](https://en.wikipedia.org/wiki/HTML5) Used to provide content and structure
 - [CSS](https://www.w3schools.com/css/) Used to provide styling
 - [Am I Responsive](http://ami.responsivedesign.is/) Used to show visual responsiveness
-- [Free Formatter](https://www.freeformatter.com) Used to clean up HTML and CSS 
-- [Googe Fonts](https://fonts.google.com/) Used for main fonts listed
-- [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2) Used for icons for social media 
+- [Free Formatter](https://www.freeformatter.com) Used to clean up HTML, CSS and Javascript.
+- [Googe Fonts](https://fonts.google.com/) Used for main fonts listed.
+- [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2) Used for icons for social media .
 - [Canva](https://www.canva.com/) Used to remove the background from the images.
-- [Balsamiq](https://balsamiq.com/) Used for wireframes
+- [Balsamiq](https://balsamiq.com/) Used for wireframes.
 - [Google Chrome Screen Reader Extension](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en) Used to test screen reading
-- [Vimeo Screen Recorder](https://vimeo.com/) Used to record final testing of site for reponsiveness
+- [Vimeo Screen Recorder](https://vimeo.com/) Used to record final testing of site for reponsiveness.
+- [Coolors](https://coolors.co/) was used to create the color palets. 
+- [CSS validator](https://jigsaw.w3.org/css-validator/) was used for testing css and can be found in the testing section. 
+- [HTML Validator](https://validator.w3.org/) was used for testing HTML and can be found int he testing section.  
+- [JSHint](https://jshint.com/) was used for testing Javascript and can be found in the testing section.
 
  ## Testing
 
@@ -175,6 +184,7 @@ To clone this project from GitHub:
 
 
  ## Credits 
+
 ### Code 
 [w3schools](https://www.w3schools.com/howto/howto_css_modals.asp) was used to help with making the modals. 
 
@@ -195,9 +205,10 @@ To clone this project from GitHub:
 
 
 ### Media
+
 All of the pictures used for the characters of the game where taken from [Clipart-Library](http://clipart-library.com/clipart/1346332.htm).
 
-The background image of the game was taken from [Pixabay]() 
+The background image of the game was taken from [Shutterstock](https://www.shutterstock.com/image-vector/flat-design-illustration-summer-mountain-landscape-1186741378) 
 
 All of the icons for this website have been taken from [Fontawesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2)
 
